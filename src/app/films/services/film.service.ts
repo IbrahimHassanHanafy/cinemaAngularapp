@@ -65,7 +65,7 @@ export class FilmService {
       {
           "id":1,
           "title":"Spider-Man: No Way Home",
-          "source":"/assets/images/spider.jfif",
+          "source":"assets/images/spider.jfif",
           "time":"12:00 AM",
           "viewday":"Sun , Dec 13",
           "date":"2021-12-13",
@@ -76,7 +76,7 @@ export class FilmService {
       {
         "id":2,
         "title":"push path rushe",
-        "source":"../assets/images/pushpa.jfif",
+        "source":"assets/images/pushpa.jfif",
         "time":"11:00 AM",
         "viewday":"Mon , Dec 14",
         "date":"2021-12-14",
@@ -87,7 +87,7 @@ export class FilmService {
       {
         "id":3,
         "title":"Shang-Chi the Ten Rings",
-        "source":"./assets/images/shangChi.jfif",
+        "source":"assets/images/shangChi.jfif",
         "time":"10:00 AM",
         "viewday":"Tus , Dec 15",
         "date":"2021-12-15",
@@ -98,7 +98,7 @@ export class FilmService {
       {
         "id":4,
         "title":"dune",
-        "source":"../assets/images/dune.jfif",
+        "source":"assets/images/dune.jfif",
         "time":"8:00 pm",
         "viewday":"Wen , Dec 16",
         "date":"2021-12-16",
