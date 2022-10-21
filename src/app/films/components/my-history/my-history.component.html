@@ -1,0 +1,24 @@
+<div class="container">
+    <h2 id="title">
+        my history
+    </h2>
+    <table class="container">
+        <thead>
+            <tr>
+                <th>booking id</th>
+                <th>date</th>
+                <th>n of tickets</th>
+                <th>show id</th>
+            </tr>
+        </thead>
+
+        <tbody id="history">
+            <tr *ngIf="history.numberTichet!=0">
+                <th>{{history.filmId}}</th>
+                <th>{{history.date}}</th>
+                <th>{{history.numberTichet}}</th>
+                <th>{{history.id}}</th>
+            </tr>
+        </tbody>
+    </table>
+</div>

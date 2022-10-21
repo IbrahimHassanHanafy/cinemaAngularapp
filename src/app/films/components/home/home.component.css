@@ -1,0 +1,54 @@
+.films{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px 0;
+}
+.film{
+    width: 23%;
+    transition: transform .5s;
+
+}
+.film:hover{
+    position: relative;
+    transform: scale(1.04);
+
+}
+figure img{
+    border-radius: 10px 10px 0 0 ;
+}
+figcaption{
+    text-transform: capitalize;
+    display: block;
+    position: relative;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 10px 0;
+}
+figcaption::after{
+    content: 'imax';
+   position: absolute;
+    right: 10px;
+    bottom: 10px;
+    font-size: 1rem;
+    color: rgb(58, 121, 216);
+}
+h3{
+    display: flex;
+    justify-content: space-between;
+    text-transform: capitalize; 
+}
+
+.head2 span{
+    font-size: .8rem;
+    margin:10px;
+}
+a.card{
+    margin: 10px 70px;
+    display: inline-block;
+    border: none;
+    color: #555;
+    text-decoration: none;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+}
