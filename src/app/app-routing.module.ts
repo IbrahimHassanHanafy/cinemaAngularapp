@@ -11,9 +11,7 @@ import { ProfileComponent } from './films/components/profile/profile.component';
 import { TicketOverviewComponent } from './films/components/ticket-overview/ticket-overview.component';
 
 const routes: Routes = [
-  {
-    path:'' ,component:LoginComponent
-  },
+ 
   {
     path:'home',component:HomeComponent
   },
@@ -40,7 +38,10 @@ const routes: Routes = [
   },
   {
     path:'parcode' ,component:ParcodeComponent
-  }
+  },
+   {
+    path:'**' ,component:LoginComponent
+  },
 ];
 
 @NgModule({
