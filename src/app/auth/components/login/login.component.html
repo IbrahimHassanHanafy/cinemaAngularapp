@@ -11,7 +11,7 @@
 
             <label for="password">password</label>
             <input type="password" #password="ngModel" name="password" ngModel required>
-            <small class="red" *ngIf="(admin.password!=password.value||register.password!=password.value)&&password.touched" >invalid password</small>
+            <small class="red" *ngIf="(admin.password!=password.value&&register.password!=password.value)&&password.touched" >invalid password</small>
             
             <button type="submit" class="click" [disabled]="login.invalid" >login</button>
             <button [routerLink]="'/register'" class="click">register</button>
