@@ -65,7 +65,7 @@ export class FilmService {
       {
           "id":1,
           "title":"Spider-Man: No Way Home",
-          "source":"../assets/images/spider.jfif",
+          "source":"/assets/images/spider.jfif",
           "time":"12:00 AM",
           "viewday":"Sun , Dec 13",
           "date":"2021-12-13",
