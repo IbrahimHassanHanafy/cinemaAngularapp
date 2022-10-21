@@ -87,7 +87,7 @@ export class FilmService {
       {
         "id":3,
         "title":"Shang-Chi the Ten Rings",
-        "source":"../assets/images/shangChi.jfif",
+        "source":"./assets/images/shangChi.jfif",
         "time":"10:00 AM",
         "viewday":"Tus , Dec 15",
         "date":"2021-12-15",
